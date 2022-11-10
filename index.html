@@ -4,10 +4,13 @@
         <title>Matthew's Website</title>
         <style>
             body {
-                background: rgb(72, 125, 223);
-                color: rgb(0, 0, 0);
+                background: #1761B0;
+                color: white;
                 padding: 10px;
-                font-family: arial;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .name {
+                font-family: "Lucida Handwriting";
             }
             #all-contents {
               max-width: 800px;
@@ -16,7 +19,7 @@
          
             /* navigation menu */
             nav {
-                background: rgb(195, 116, 240);
+                background: #D2292D;
                margin: 0 auto;
                margin-bottom: 20px;
                 display: flex;
@@ -45,14 +48,16 @@
          
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                
                 display: flex;
                 border: 2px black;
                 border-radius: 25px;
+                background-color: #D2292D;
             }
             .sidebar {
                 margin-right: 25px;
                 padding: 10px;
+                background-color: #D2292D;
             }
             .sidebar-img {
                 width: 200px;
@@ -62,10 +67,12 @@
             .content {
                 flex: 1;
                 padding: 15px;
+                background-color: #D2292D;
             }
             #interests {
                 border: 4px silver ridge;
                 padding: 8px;
+                background-color: #D2292D;
             }
             h2, h3 {
                 margin: 0px;
@@ -77,7 +84,7 @@
         <!-- Visible  HTML elements GO HERE -->
         <div>
             <nav>
-                <h1>Matthew's Website</h1>
+                <h1 class="name">Matthew's Website</h1>
                 <ul id="nav-ul">
                     <li class="nav-li">
                         <a href="index.html"> Home </a>
